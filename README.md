@@ -32,7 +32,7 @@ As mentioned at the exam presentation, the first data augmentation was just a "s
 # 6) NoAugmentation_Keras_Classifer_New_Trainingset.ipynb
 Having tested No-Augmentation, Augmentation via mirror/180 rotation, and Augmentation via small steps of rotation and finding out that the dataset with no augmentation did best in test. The NoAugmentation dataset was saved for future use. Additionally the training/testing for this specific (No augmentation) can also be found in the script.
 
-# 7) 
+# 7) PictureNormalization.ipynb
 This script includes the various image normalization techniques, including the AHE method.
 
 # 8) Architecures_test.ipynb
