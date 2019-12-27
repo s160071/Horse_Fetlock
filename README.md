@@ -40,3 +40,4 @@ This script includes the intialization of all the network architectures used in 
 
 # 9) Evaluate_final_model.ipynb
 This script includes the loading of all the 10 initializations for the final architecture used "Dilation v1 (F)". Of these 10 intializations the very best of these versions are used to evaluate across the testing set. Which resulted in an accuracy of ~88.25%, additionally the images of the misclassifications are viewed.
+To evaluate the final model, the best version you can download aDilation_v1.json which includes the model, and the aDilation_v1_7.hdf5 which includes the trained network parameters.
