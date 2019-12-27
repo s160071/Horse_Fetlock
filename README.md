@@ -2,8 +2,7 @@
 Deep Learning 02456 course project
 
 Sequence the files should be run:
-0) RESHAPING THE PICTURES (ANDREAS)
-1) MISSING (MAKE X,Y COORDS)
+1) create_xy_coords_and_pickle.py
 2) Data_augmentation_v2.ipynb
 3) Localizer_v2.ipynb
 4) Save_Cropped_Output_Snipped.ipynb
@@ -14,8 +13,8 @@ Sequence the files should be run:
 9) Evaluate_final_model.ipynb
 
 
-# 1) MISSING (MAKE X,Y COORDS)
-This script was used to open and show 1100x650 sized images, whereas the user could manually click the center of the knee across all the pictures which would be stored for training the future localization network.
+# 1) create_xy_coords_and_pickle.py
+This script was used to open and show 1100x650 sized images, whereas the user could manually click the center of the knee across all the pictures which would be stored in a pickle used to training the future localization network. This pickle file included the pictures of size 1100x650, the small pictures used for the localization network (110x65), the X, Y coordinates and finally the label whether it had a fragment or not.
 
 # 2) Data_augmentation_v2.ipynb
 This script was used to augment the data, since the originally only 134~ pictures exsists. The script augments the data by mirroring the picture, rotating the picture 180 degrees and finally a combination of the two. This script also translates the X,Y coordinates to the augmented data, to avoid having to manually click the center of the knees.
